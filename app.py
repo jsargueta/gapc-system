@@ -3,8 +3,7 @@ import os
 import streamlit as st
 
 # Obtener las credenciales de las variables de entorno (seguridad)
-host = os.getenv("DB_HOST", "bgvmjwdcbbz4gcujv7vd-mysql.services.clever-cloud.com
-")
+host = os.getenv("DB_HOST", "bgvmjwdcbbz4gcujv7vd-mysql.services.clever-cloud.com")
 user = os.getenv("DB_USER", "ugnqvhsrlnrgq3ve")
 password = os.getenv("DB_PASSWORD", "viB42HOWEDFp1lR5lCgx")
 database = os.getenv("DB_NAME", "bgvmjwdcbbz4gcujv7vd")
